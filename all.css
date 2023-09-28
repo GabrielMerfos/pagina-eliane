@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    font-style: initial;
+
+}
+
+
+.Testo1{
+    color: #fff;
+    position: relative;
+    padding: 10px 330px;
+    font-size: 41px;
+    padding-right: 940px;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.P1{
+    color: white;
+    position: relative;
+    padding: 10px 330px;
+    padding-right: 990px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 10px;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    position: relative;
+    padding-top: 120px;
+    padding-left: 330px;
+}
+
+.fundosessao1{
+    position: fixed;
+    
+}
+
+.butao1{
+    color: white;
+    position: relative;
+    width: 350px;
+    height: 80px;
+    
+    
+}
+ .pfin{
+    color:orange;
+ }
