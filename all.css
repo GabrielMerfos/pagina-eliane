@@ -14,50 +14,51 @@ body{
 
 
 
-.banner{
+.Sessao1{
     background-image: url("./assets/img/1sessao.png");
     background-size: cover;
     background-position:top center;
     height:150vh;
 }
 
-.banner .col-sm-6{
+.Sessao1 .col-sm-6{
     margin-top:100px;
 }
 
-.banner-text{
+.Sessao1-text{
     color: #fff;
 }
 
-.banner-text h1{
-    margin-bottom: 20px;
+.Sessao1-text h1{
+    margin-bottom: 40px;
     font-family: Quicksand, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 0em;
+    max-width: 90%;
 }
 
-.banner-text h1,
-.banner-text a{
+.Sessao1-text h1,
+.Sessao1-text a{
     text-transform: uppercase;
 }
 
-.banner-text h1 span{
+.Sessao1-text h1 span{
     color: var(--primary);
 }
 
-.banner-text p{
+.Sessao1-text p{
     font-family: Poppins, sans-serif;
     font-size: 24px;
     font-weight: 300;
     line-height: 36px;
     letter-spacing: 0em;
-    max-width: 80%;
+    max-width: 75%;
     margin-bottom: 20px;
 }
 
-.banner-text a{
+.Sessao1-text a{
     background: var(--primary);
     text-decoration: none;
     color: #fff;
@@ -72,7 +73,7 @@ body{
     border:1px solid var(--primary);
 }
 
-.banner-text a:hover{
+.Sessao1-text a:hover{
     background: none;
     color: var(--primary);
     border:1px solid var(--primary);
@@ -98,6 +99,106 @@ body{
     transform:translateX(-50%);
 } */
 
-@media (max-width: 768px){
+.texto21{
+    font-family: Quicksand, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 40px;
+    max-width: 80%;
+}
+
+.texto22{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    max-width: 63%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #fff;
+    
+}
+
+.Sessao2 .row{
+    margin-top: 10px;
+    margin-right: -65px;
+    margin-left: -65px;
+    border: #d0bba5 dashed;
+    border-width: 2px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    
+}
+
+.Sessao2{
+    margin-left: 290px;
+    margin-right: 130px;
+    margin-top: 10px;
+    border:#fff solid;
+    border-width: thin;
+    border-radius: 1rem;
+    
+}
+
+
+.Sessao3 .col-sm-6{
+    color: #fff;
+    position: relative;
+        
+}
+
+.Sessao3 .content{
+    margin-top: 120px;
 
 }
+
+
+.frase1{
+    color: #B0641B;
+    font-family: Quicksand, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    padding: 40px;
+    max-width: 80%;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+
+.lista1{
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    max-width: 70%;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    color: #fff;
+    line-height: 2.5;
+    padding-top: 0px;
+    max-width: 65%;
+}
+
+.item3{
+    line-height: 1.5;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+    
+ 
+ /* RESPONSIVIDADE
+.Sessao2{
+    @media (min-width: 558px){
+    max-width: 8900px;
+    }
+
+
+} */
